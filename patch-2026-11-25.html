@@ -1,0 +1,1083 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KR Lost Ark — Part 2 Rework Advance Notice, November 25, 2026 (English)</title>
+<meta name="description" content="English translation of the Korean Lost Ark Part 2 major rework advance notice (Nov 25, 2026) and the 8th Anniversary Start of Change Package page." />
+<link rel="icon" href="assets/walrus.png" type="image/png" />
+<link rel="stylesheet" href="style.css" />
+<style>
+  h4 { font-size: 15.5px; margin: 22px 0 6px; color: var(--text); border-left: 3px solid var(--accent-2); padding-left: 10px; }
+  section h3 { scroll-margin-top: 60px; }
+  section { scroll-margin-top: 56px; }
+  .tbl { overflow-x: auto; }
+  .tbl table { min-width: 460px; }
+  td.hl { background: var(--quote); color: var(--accent); font-weight: 600; text-align: center; }
+  td.hd { background: var(--quote); font-weight: 600; }
+  td { vertical-align: middle; }
+  details.fold { background: var(--quote); border: 1px solid var(--border); border-radius: 8px; padding: 0 16px; margin: 12px 0; }
+  details.fold > summary { cursor: pointer; padding: 12px 0; font-weight: 600; color: var(--accent); font-size: 14.5px; }
+  details.fold[open] > summary { border-bottom: 1px solid var(--border); margin-bottom: 10px; }
+  details.fold .toggle-body { padding-bottom: 12px; }
+  details.fold td { background: var(--bg); }
+  details.fold td.hl, details.fold td.hd { background: var(--panel); }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 10px 0; }
+  .pair .poster { margin: 0; background: #e9e6df; border-radius: 8px; overflow: hidden; }
+  .pair .poster img { margin: 0; border-radius: 0; }
+  .pair .poster .poster-note { background: var(--panel); margin: 0; padding: 8px 12px; text-align: center; color: var(--text); }
+  .fig-overlay .ov b { color: #fff; }
+  @media (max-width: 600px) { .pair { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<!-- Junglewalrus "back to toolbox" button — canonical source:
+     https://github.com/thejunglewalrus/thejunglewalrus.github.io/blob/main/snippets/jw-back.html
+     Fixed top-left, same-tab link to the hub. Required on every kr-patch-digest
+     page (translation pages are no longer exempt from this one — see SKILL.md). -->
+<a href="https://thejunglewalrus.github.io/" class="jw-back"
+   title="Back to the Junglewalrus toolbox"
+   aria-label="Back to the Junglewalrus toolbox">
+  <svg class="jw-back-icon" viewBox="0 0 24 24" width="18" height="18"
+       fill="none" stroke="currentColor" stroke-width="2.4"
+       stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+       focusable="false">
+    <path d="M19 12H5" />
+    <path d="M12 19l-7-7 7-7" />
+  </svg>
+  <span class="jw-back-label">Back</span>
+</a>
+<style>
+  .jw-back {
+    position: fixed;
+    top: 14px;
+    left: 14px;
+    z-index: 1000;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    height: 36px;
+    padding: 0 14px 0 11px;
+    border-radius: 999px;
+    background: #0e1320;
+    border: 1px solid #c8a45c;
+    color: #c8a45c;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 1;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+  }
+  .jw-back-icon {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 auto;
+    display: block;
+    transition: transform 0.18s ease-out;
+  }
+  .jw-back-label {
+    white-space: nowrap;
+    font: 600 13px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    letter-spacing: 0.02em;
+  }
+  .jw-back:hover, .jw-back:focus-visible {
+    background: #1a2236;
+    border-color: #e3c069;
+    color: #e3c069;
+    text-decoration: none;
+  }
+  .jw-back:hover .jw-back-icon,
+  .jw-back:focus-visible .jw-back-icon { transform: translateX(-2px); }
+  .jw-back:focus-visible {
+    outline: 2px solid #c8a45c;
+    outline-offset: 2px;
+  }
+  @media (max-width: 480px) {
+    .jw-back { top: 10px; left: 10px; height: 32px; padding: 0 12px 0 9px; }
+  }
+</style>
+<main>
+  <header class="hero">
+    <div class="hero-text">
+      <p class="kicker"><img src="assets/palm.png" alt="" />Korean Lost Ark &middot; Notice Translation</p>
+      <h1>Part 2 Update: Advance Notice of Major Reworks</h1>
+      <p class="meta">
+        Source: <a href="https://lostark.game.onstove.com/News/Notice/Views/13608" rel="noopener" target="_blank">Notice #13608</a>
+        &middot; Posted 2026.11.25 09:59 KST
+      </p>
+      <p class="disclaimer">Direct translation. No commentary or extrapolation added.</p>
+    </div>
+    <img class="hero-mascot" src="assets/walrus.png" alt="Jungle Walrus mascot" />
+  </header>
+
+  <p class="ai-disclaimer">
+    <strong>AI-generated translation.</strong> This English version was produced with AI assistance and may contain errors or mistranslations. Always verify against the original Korean sources linked in each section below.
+  </p>
+
+  <nav class="tabs">
+    <a href="#notice" class="active">Part 2 rework notice</a>
+    <a href="#package">Start of Change Package</a>
+    <a href="#translation-notes">Translation notes</a>
+  </nav>
+
+  <details class="toc" open>
+    <summary>On this page</summary>
+    <ul class="toc-list">
+      <li><a href="#notice">Part 2 Update: Advance Notice of Major Reworks</a>
+        <ul>
+          <li><a href="#gear">Gear System and Gear Growth Rework</a></li>
+          <li><a href="#accessories">Accessory System and Accessory Growth Rework</a></li>
+          <li><a href="#engravings">Engraving System Rework</a></li>
+          <li><a href="#gems">Gem System Rework</a></li>
+          <li><a href="#combat">Combat System Rework</a></li>
+          <li><a href="#trade-skills">Trade Skill System Rework</a></li>
+          <li><a href="#sailing">Sailing Rework</a></li>
+          <li><a href="#content">Content Rework</a></li>
+          <li><a href="#stronghold-pets">Roster Stronghold and Pet System Rework</a></li>
+          <li><a href="#other">Other Part 2 System Reworks</a></li>
+        </ul>
+      </li>
+      <li><a href="#package">8th Anniversary Start of Change Package</a>
+        <ul>
+          <li><a href="#package-contents">Package contents</a></li>
+          <li><a href="#package-avatar">Avatar</a></li>
+          <li><a href="#package-weapon">Weapon avatar</a></li>
+          <li><a href="#package-mount">Mount</a></li>
+          <li><a href="#package-pet">Pet</a></li>
+        </ul>
+      </li>
+      <li><a href="#translation-notes">Translation Notes</a></li>
+    </ul>
+  </details>
+
+  <section id="notice">
+    <h2>Advance Notice of Major Reworks with the Lost Ark Part 2 Update</h2>
+    <p class="meta">Source: <a href="https://lostark.game.onstove.com/News/Notice/Views/13608" rel="noopener" target="_blank">Notice #13608</a> &middot; Posted 2026.11.25 09:59 KST</p>
+    <p class="poster-note">Tables marked with a triangle are collapsed in the original notice as well (&ldquo;click to expand&rdquo;).</p>
+<blockquote>Hello, this is Lost Ark.<br>
+This is an advance notice of the major reworks coming with the Lost Ark Part 2 update.<br>
+In Lost Ark Part 2, many existing systems will be reworked and new systems will be introduced,<br>
+and as a result the gear, currencies, items and so on that Adventurers currently own will also change.<br>
+Please refer to the guide below and check the reworks coming with the Lost Ark Part 2 update in advance.</blockquote>
+
+<h3 id="gear">Changes from the Gear System and Gear Growth Rework</h3>
+<p>Gear composition and growth are being reworked across the board.</p>
+<ul><li>New gear is added, expanding equippable gear to 16 slots in total.<ul><li>Gear (weapons, armor)<ul><li>2 weapons: Weapon, Vambrace</li>
+<li>6 armor pieces: Helmet, Shoulders, Chest, Pants, Gloves, Belt</li>
+</ul>
+</li>
+<li>Accessories (Treasures, accessories)<ul><li>2 Treasures: Holy Relic, Seal</li>
+<li>6 accessories: Necklace, Earring, Earring, Ring, Ring, Bracelet</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>New gear/accessories are granted the following effects.<ul><li>Weapon Power, Vitality, Physical Defense, Magical Defense, basic stat (Strength/Dexterity/Intelligence)</li>
+</ul>
+</li>
+<li>New gear/accessories cannot be destroyed, sold or traded.</li>
+</ul>
+<p>Gear growth is being reworked.</p>
+<ul><li>The honing system is reworked and changes to honing the slots of weapons and armor.<ul><li>With the honing system rework, the Advanced Honing and Special Honing systems are removed.</li>
+</ul>
+</li>
+<li>With the gear growth rework, new materials are used for honing, and growth materials are reworked along with it.</li>
+<li>Materials used for the existing honing (normal/Advanced/Special Honing) and growth materials are removed or replaced depending on tier and type.<ul><li>All Tier 3 honing materials and growth materials are removed, except &lsquo;Honor Shards&rsquo; and &lsquo;Honor Shard Pouches&rsquo;.<ul><li>Destruction Stone/Guardian Stone type materials, Leapstones, Fusion Materials</li>
+<li>Special honing materials (Metallurgy/Tailoring) used for honing Tier 3 gear, additional honing materials, Special Honing materials<br>&#8251; Honor Shards and Honor Shard Pouches are replaced with Silver.<br>&#8251; We recommend exchanging the Tier 3 materials you hold for Tier 4 materials through the &lsquo;Honing Material Exchange&rsquo; NPC before the Lost Ark Part 2 regular maintenance.</li>
+</ul>
+</li>
+<li>Tier 4 honing materials and growth materials are replaced, depending on type, with new growth materials at a set ratio or with Part 2 Growth Material Exchange Tokens.<ul><li>Fusion Materials, Destruction Stone/Guardian Stone type materials and Breath items, which are used with the same function in Part 2, are replaced with Part 2 growth materials at a set ratio.<br>&#8251; Besides these, Leapstones, Destiny Shards, Metallurgy/Tailoring and Special Honing materials (Circulation Leapstones, Transition Leapstones) and so on are replaced with Part 2 Growth Material Exchange Tokens.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>The Quality system is removed.</p>
+<ul><li>Gear and accessories are no longer given Quality.</li>
+<li>With the removal of the Quality system, the Quality Upgrade system is removed along with it.<ul><li>Quality Upgrade materials are removed and replaced with Part 2 Growth Material Exchange Tokens.</li>
+<li>For the existing weapons and armor a character holds, additional Part 2 Growth Material Exchange Tokens are given according to the Quality value of the highest-Quality piece for each slot.<br>&#8251; Sidereal weapons are not included in the payout criteria.</li>
+</ul>
+</li>
+</ul>
+<h4>Replacement of Existing Gear</h4>
+<p>Existing gear is replaced with new gear based on the type or item level of the gear you hold.</p>
+<p>&#8251; The growth level of existing gear is reflected in the new gear&rsquo;s growth state and honing stage, in line with the Part 2 gear growth structure.</p>
+<ul><li>Gear replaced according to gear type<ul><li>Eligible gear is replaced with new gear.</li>
+<li>Where usable gear differs by class, gear that fits the class is given.</li>
+</ul>
+</li>
+<li>Gear replaced according to item level<ul><li>New gear for the same slot and additional gear are given according to the item level of the existing gear.<ul><li>The rarity and polish level of the new gear are set based on the item level of the existing gear.</li>
+<li>The replacement gear may have a slightly higher item level than the existing gear.<br>&#8251; Example) If the existing gear&rsquo;s item level is above 1725 and up to 1730 &rarr; the new gear&rsquo;s item level is set to 1730</li>
+<li>The item level of the replacement gear for the 5 armor slots is determined by the item level of the existing gear in the same slot.</li>
+<li>For the weapon, the 6 new pieces below are given, and each piece&rsquo;s item level is determined by the item level of the existing weapon.<ul><li>Weapon, Vambrace, Belt, Holy Relic, Seal, Bracelet</li>
+</ul>
+</li>
+<li>The honing stage of existing gear is reflected in the new gear slot for the same slot.<ul><li>For the Vambrace, the existing Vambrace&rsquo;s honing stage is carried over as it is to the new Vambrace slot&rsquo;s honing stage.</li>
+<li>For the Belt, the weapon&rsquo;s honing stage is not reflected, and honing starts anew.</li>
+</ul>
+</li>
+<li>Artisan&rsquo;s Energy accumulated on existing gear is kept at the same value on the new gear slot for the same slot.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<details class="fold"><summary>New gear transfer criteria by existing gear item level</summary>
+<div class="toggle-body"><div class="tbl"><table><tbody><tr><td colspan="2" class="hl">Item level of existing gear</td><td colspan="3" class="hl">Item level and details of new gear</td></tr>
+<tr><td class="hl">Above</td><td class="hl">Up to</td><td class="hl">Transferred gear</td><td class="hl">Polish level</td><td class="hl">Item level</td></tr>
+<tr><td>50</td><td>100</td><td>Tier 1 Uncommon</td><td>0</td><td>100</td></tr>
+<tr><td>100</td><td>150</td><td>Tier 1 Rare</td><td>0</td><td>150</td></tr>
+<tr><td>150</td><td>200</td><td>Tier 1 Epic</td><td>0</td><td>200</td></tr>
+<tr><td>200</td><td>250</td><td>Tier 1 Legendary</td><td>0</td><td>250</td></tr>
+<tr><td class="hd">250</td><td class="hd">600</td><td class="hd">Tier 2 Common</td><td class="hd">0</td><td class="hd">600</td></tr>
+<tr><td class="hd">600</td><td class="hd">700</td><td class="hd">Tier 2 Uncommon</td><td class="hd">0</td><td class="hd">700</td></tr>
+<tr><td class="hd">700</td><td class="hd">800</td><td class="hd">Tier 2 Rare</td><td class="hd">0</td><td class="hd">800</td></tr>
+<tr><td class="hd">800</td><td class="hd">900</td><td class="hd">Tier 2 Epic</td><td class="hd">0</td><td class="hd">900</td></tr>
+<tr><td class="hd">900</td><td class="hd">1000</td><td class="hd">Tier 2 Legendary</td><td class="hd">0</td><td class="hd">1000</td></tr>
+<tr><td>1000</td><td>1200</td><td>Tier 3 Common</td><td>0</td><td>1200</td></tr>
+<tr><td>1200</td><td>1300</td><td>Tier 3 Uncommon</td><td>0</td><td>1300</td></tr>
+<tr><td>1300</td><td>1400</td><td>Tier 3 Rare</td><td>0</td><td>1400</td></tr>
+<tr><td>1400</td><td>1500</td><td>Tier 3 Epic</td><td>0</td><td>1500</td></tr>
+<tr><td>1500</td><td>1600</td><td>Tier 3 Legendary</td><td>0</td><td>1600</td></tr>
+<tr><td class="hd">1600</td><td class="hd">1675</td><td class="hd">Tier 4 Uncommon</td><td class="hd">0</td><td class="hd">1675</td></tr>
+<tr><td class="hd">1675</td><td class="hd">1680</td><td class="hd">Tier 4 Uncommon</td><td class="hd">1</td><td class="hd">1680</td></tr>
+<tr><td class="hd">1680</td><td class="hd">1685</td><td class="hd">Tier 4 Uncommon</td><td class="hd">2</td><td class="hd">1685</td></tr>
+<tr><td class="hd">1685</td><td class="hd">1690</td><td class="hd">Tier 4 Uncommon</td><td class="hd">3</td><td class="hd">1690</td></tr>
+<tr><td class="hd">1690</td><td class="hd">1695</td><td class="hd">Tier 4 Uncommon</td><td class="hd">4</td><td class="hd">1695</td></tr>
+<tr><td>1695</td><td>1700</td><td>Tier 4 Rare</td><td>0</td><td>1700</td></tr>
+<tr><td>1700</td><td>1705</td><td>Tier 4 Rare</td><td>1</td><td>1705</td></tr>
+<tr><td>1705</td><td>1710</td><td>Tier 4 Rare</td><td>2</td><td>1710</td></tr>
+<tr><td>1710</td><td>1715</td><td>Tier 4 Rare</td><td>3</td><td>1715</td></tr>
+<tr><td>1715</td><td>1720</td><td>Tier 4 Rare</td><td>4</td><td>1720</td></tr>
+<tr><td class="hd">1720</td><td class="hd">1725</td><td class="hd">Tier 4 Epic</td><td class="hd">0</td><td class="hd">1725</td></tr>
+<tr><td class="hd">1725</td><td class="hd">1730</td><td class="hd">Tier 4 Epic</td><td class="hd">1</td><td class="hd">1730</td></tr>
+<tr><td class="hd">1730</td><td class="hd">1735</td><td class="hd">Tier 4 Epic</td><td class="hd">2</td><td class="hd">1735</td></tr>
+<tr><td class="hd">1735</td><td class="hd">1740</td><td class="hd">Tier 4 Epic</td><td class="hd">3</td><td class="hd">1740</td></tr>
+<tr><td class="hd">1740</td><td class="hd">1745</td><td class="hd">Tier 4 Epic</td><td class="hd">4</td><td class="hd">1745</td></tr>
+<tr><td>1745</td><td>1750</td><td>Tier 4 Legendary</td><td>0</td><td>1750</td></tr>
+<tr><td>1750</td><td>1755</td><td>Tier 4 Legendary</td><td>1</td><td>1755</td></tr>
+<tr><td>1755</td><td>1760</td><td>Tier 4 Legendary</td><td>2</td><td>1760</td></tr>
+<tr><td>1760</td><td>1765</td><td>Tier 4 Legendary</td><td>3</td><td>1765</td></tr>
+<tr><td>1765</td><td>1770</td><td>Tier 4 Legendary</td><td>4</td><td>1770</td></tr>
+<tr><td class="hd">1770</td><td class="hd">1775</td><td class="hd">Tier 4 Relic</td><td class="hd">2</td><td class="hd">1785</td></tr>
+<tr><td class="hd">1775</td><td class="hd">1780</td><td class="hd">Tier 4 Relic</td><td class="hd">3</td><td class="hd">1790</td></tr>
+<tr><td class="hd">1780</td><td class="hd">1785</td><td class="hd">Tier 4 Relic</td><td class="hd">4</td><td class="hd">1795</td></tr>
+<tr><td>1785</td><td>1790</td><td>Tier 4 Ancient</td><td>0</td><td>1800</td></tr>
+<tr><td>1790</td><td>1795</td><td>Tier 4 Ancient</td><td>2</td><td>1810</td></tr>
+<tr><td>1795</td><td>1800</td><td>Tier 4 Ancient</td><td>3</td><td>1815</td></tr>
+</tbody></table>
+</div>
+</div>
+</details>
+<h4>Sidereal Weapon Rework and Replacement</h4>
+<ul><li>The growth ranges of Sidereal weapons and the composition of each range are being reworked.</li>
+<li>The existing &lsquo;Sidereal Weapon Evolution&rsquo; and &lsquo;Sidereal Conversion&rsquo; functions are removed.<ul><li>Sidereal weapons change to grow through polishing from a certain range onward, and item level and the weapon slot&rsquo;s honing stage rise with the polish level.</li>
+</ul>
+</li>
+<li>With the Sidereal weapon rework, the material amounts needed for growth are adjusted.</li>
+<li>Sidereal weapons you currently hold are replaced with new Sidereal weapons.<ul><li>The evolution stage and Ella infusion history of the Sidereal weapon you currently hold are reflected in the new Sidereal weapon&rsquo;s Ella infusion stage, item level and honing stage.</li>
+<li>If you hold both a normal weapon and a Sidereal weapon, the replacement criteria for new gear are determined by the weapon with the higher item level.<br>&#8251; If you hold a Sidereal weapon of item level 1800 or higher, the new gear given according to the weapon (Vambrace/Belt/Holy Relic/Seal/Bracelet) is given on the basis of a honing stage 25 weapon.<br>&#8251; The item level of the newly given Sidereal weapon may change depending on the stage of the existing Sidereal weapon.</li>
+</ul>
+</li>
+<li>If the existing Sidereal weapon&rsquo;s evolution reached certain stages, part of the materials previously used is refunded in line with the adjusted growth material amounts.<br>&#8251; The refund amount is determined by the difference between the materials used and the materials needed to reach that growth stage after replacement.<br>&#8251; Sidereal Energy and Romantic Material Kits are refunded as character-bound items.</li>
+</ul>
+<details class="fold"><summary>Sidereal weapon replacement and material refund criteria</summary>
+<div class="toggle-body"><p>&#8251; Based on the existing Sidereal weapon&rsquo;s evolution stage and Ella infusion stage, each table shows the new Sidereal weapon&rsquo;s growth state and the material refund amount.</p>
+<p>Item level transfer</p>
+<div class="tbl"><table><tbody><tr><td colspan="3" class="hl">Existing Sidereal weapon</td><td colspan="2" class="hl">New Sidereal weapon given as replacement</td></tr>
+<tr><td class="hl">Evolution stage</td><td class="hl">Ella infusion stage</td><td class="hl">Item level</td><td class="hl">Ella infusion stage</td><td class="hl">Item level</td></tr>
+<tr><td>0</td><td>-</td><td>1100</td><td rowspan="6">Stage 1</td><td rowspan="6">1100</td></tr>
+<tr><td>1</td><td>-</td><td>1200</td></tr>
+<tr><td>2</td><td>-</td><td>1300</td></tr>
+<tr><td>3</td><td>-</td><td>1400</td></tr>
+<tr><td>4</td><td>-</td><td>1500</td></tr>
+<tr><td>5</td><td>-</td><td>1600</td></tr>
+<tr><td class="hd">6</td><td class="hd">-</td><td class="hd">1625</td><td rowspan="6" class="hd">Stage 2</td><td rowspan="6" class="hd">1625</td></tr>
+<tr><td class="hd">7</td><td class="hd">-</td><td class="hd">1635</td></tr>
+<tr><td class="hd">6</td><td class="hd">Stage 1</td><td class="hd">1650</td></tr>
+<tr><td class="hd">7</td><td class="hd">Stage 1</td><td class="hd">1665</td></tr>
+<tr><td class="hd">6</td><td class="hd">Stage 2</td><td class="hd">1675</td></tr>
+<tr><td class="hd">8</td><td class="hd">-</td><td class="hd">1645</td></tr>
+<tr><td>7</td><td>Stage 2</td><td>1695</td><td rowspan="6">Stage 3</td><td rowspan="6">1735</td></tr>
+<tr><td>7</td><td>Stage 3</td><td>1785</td></tr>
+<tr><td>8</td><td>Stage 1</td><td>1680</td></tr>
+<tr><td>8</td><td>Stage 2</td><td>1715</td></tr>
+<tr><td>8</td><td>Stage 3</td><td>1775</td></tr>
+<tr><td>9</td><td>Stage 2</td><td>1745</td></tr>
+<tr><td class="hd">9</td><td class="hd">Stage 3</td><td class="hd">1800</td><td class="hd">Stage 4</td><td class="hd">1840</td></tr>
+<tr><td>10</td><td>Stage 3</td><td>1830</td><td>Stage 4 + polish level 5</td><td>1865</td></tr>
+</tbody></table>
+</div>
+<br>Honing stage transfer<div class="tbl"><table><tbody><tr><td colspan="2" class="hl">Existing gear</td><td class="hl">New Sidereal weapon given as replacement</td></tr>
+<tr><td class="hl">Evolution stage</td><td class="hl">Ella infusion stage</td><td class="hl">Honing stage</td></tr>
+<tr><td>0</td><td>-</td><td rowspan="8">Stage 0</td></tr>
+<tr><td>1</td><td>-</td></tr>
+<tr><td>2</td><td>-</td></tr>
+<tr><td>3</td><td>-</td></tr>
+<tr><td>4</td><td>-</td></tr>
+<tr><td>5</td><td>-</td></tr>
+<tr><td>6</td><td>-</td></tr>
+<tr><td>7</td><td>-</td></tr>
+<tr><td class="hd">6</td><td class="hd">Stage 1</td><td rowspan="3" class="hd">Stage 9</td></tr>
+<tr><td class="hd">7</td><td class="hd">Stage 1</td></tr>
+<tr><td class="hd">6</td><td class="hd">Stage 2</td></tr>
+<tr><td>8</td><td>-</td><td>Stage 11</td></tr>
+<tr><td class="hd">7</td><td class="hd">Stage 2</td><td class="hd">Stage 12</td></tr>
+<tr><td>7</td><td>Stage 3</td><td rowspan="2">Stage 14</td></tr>
+<tr><td>8</td><td>Stage 1</td></tr>
+<tr><td class="hd">8</td><td class="hd">Stage 2</td><td class="hd">Stage 18</td></tr>
+<tr><td>8</td><td>Stage 3</td><td>Stage 20</td></tr>
+<tr><td class="hd">9</td><td class="hd">Stage 2</td><td class="hd">Stage 22</td></tr>
+<tr><td>9</td><td>Stage 3</td><td rowspan="2">Stage 25</td></tr>
+<tr><td>10</td><td>Stage 3</td></tr>
+</tbody></table>
+</div>
+<br><p>Growth material refund</p>
+<div class="tbl"><table><tbody><tr><td colspan="2" class="hl">Existing gear</td><td colspan="2" class="hl">Amount of materials refunded</td></tr>
+<tr><td class="hl">Evolution stage</td><td class="hl">Ella infusion stage</td><td class="hl">Sidereal Energy (character-bound)</td><td class="hl">Romantic Material Kit</td></tr>
+<tr><td>Stage 0</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>Stage 1</td><td>-</td><td>1</td><td>10</td></tr>
+<tr><td>Stage 2</td><td>-</td><td>3</td><td>310</td></tr>
+<tr><td>Stage 3</td><td>-</td><td>8</td><td>810</td></tr>
+<tr><td>Stage 4</td><td>-</td><td>18</td><td>1,810</td></tr>
+<tr><td>Stage 5</td><td>-</td><td>28</td><td>3,310</td></tr>
+<tr><td>Stage 6</td><td>-</td><td>20</td><td>3,000</td></tr>
+<tr><td>Stage 7</td><td>-</td><td>40</td><td>7,000</td></tr>
+<tr><td>Stage 6</td><td>Stage 1</td><td>40</td><td>11,500</td></tr>
+<tr><td>Stage 7</td><td>Stage 1</td><td>60</td><td>15,500</td></tr>
+<tr><td>Stage 6</td><td>Stage 2</td><td>60</td><td>20,000</td></tr>
+<tr><td>Stage 8</td><td>-</td><td>70</td><td>12,000</td></tr>
+<tr><td>Stage 7</td><td>Stage 2</td><td>20</td><td>12,000</td></tr>
+<tr><td>Stage 7</td><td>Stage 3</td><td>20</td><td>14,500</td></tr>
+<tr><td>Stage 8</td><td>Stage 1</td><td>30</td><td>8,500</td></tr>
+<tr><td>Stage 8</td><td>Stage 2</td><td>50</td><td>17,000</td></tr>
+<tr><td>Stage 8</td><td>Stage 3</td><td>50</td><td>19,500</td></tr>
+<tr><td>Stage 9</td><td>Stage 2</td><td>80</td><td>24,000</td></tr>
+<tr><td>Stage 9</td><td>Stage 3</td><td>20</td><td>10,500</td></tr>
+<tr><td>Stage 10</td><td>Stage 3</td><td>-</td><td>-</td></tr>
+</tbody></table>
+</div>
+</div>
+</details>
+<h3 id="accessories">Changes from the Accessory System and Accessory Growth Rework</h3>
+<ul><li>Accessories are incorporated into gear and are given an item level.</li>
+<li>Accessory growth is being reworked.<ul><li>The accessory polishing system is removed and changes to a system of growing accessory slots.</li>
+<li>For bracelets too, the effect-granting system is removed and changes to a system of growing accessory slots.</li>
+</ul>
+</li>
+<li>With the accessory system rework, new accessories are given based on the piece with the highest item level among the weapons/armor you hold.<ul><li>Weapon &rarr; Holy Relic, Seal, Bracelet</li>
+<li>Helmet &rarr; Necklace</li>
+<li>Shoulders &rarr; Earring</li>
+<li>Chest &rarr; Earring</li>
+<li>Pants &rarr; Ring</li>
+<li>Gloves &rarr; Ring<br>&#8251; The item level of the newly given accessory reflects the item level of the existing weapon/armor it is based on.</li>
+</ul>
+</li>
+<li>With the accessory growth rework, the bracelet effect-granting and upgrade functions are removed.<ul><li>Bracelet Effect Reroll Ticket items are no longer used and are replaced with Part 2 Growth Material Exchange Tokens.</li>
+</ul>
+</li>
+</ul>
+<h4>Replacement of Existing Accessories</h4>
+<p>Tier 4 Ancient accessories</p>
+<p>&lsquo;Accessories with Quality 67 or higher&rsquo; are replaced as follows according to the options they have.</p>
+<ul><li>Accessories with &lsquo;valid options&rsquo;: replaced with a &lsquo;Mana Infusion Scroll&rsquo; according to the criteria below.<ul><li>The replacement Mana Infusion Scroll is given to match the existing accessory&rsquo;s slot. (Example: Necklace &rarr; Necklace Mana Infusion Scroll)</li>
+<li>The grade of the replacement Mana Infusion Scroll follows the combination of valid options in the transfer criteria.</li>
+<li>Replacement Mana Infusion Scrolls are divided into grades 1 to 6, taking into overall account the existing accessory&rsquo;s Auction House trade price and the expected probability of obtaining its options.</li>
+<li>A scroll&rsquo;s grade is determined by the combination of valid options on the accessory, with no distinction between accessories still being polished and accessories with polishing complete.</li>
+<li>For support earrings, the Mana Infusion Scroll grade is determined by criteria separate from other accessories.<br>&#8251; For detailed criteria, please check [Tier 4 accessory Mana Infusion Scroll criteria and valid options for DPS/support] below.</li>
+<li>The replacement Mana Infusion Scroll follows the existing accessory&rsquo;s trade count.<ul><li>Example) Existing accessory tradable 2 times &rarr; Mana Infusion Scroll tradable 2 times</li>
+<li>Example 2) Existing untradable accessory &rarr; untradable Mana Infusion Scroll</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Accessories without valid options, or accessories with Quality below 67, are replaced with a set amount of &lsquo;Radiant Gem Fragments&rsquo; according to polish level.<ul><li>&lsquo;Radiant Gem Fragments&rsquo; are changed so they can be exchanged for Silver.</li>
+</ul>
+</li>
+</ul>
+<p>Tier 4 Relic accessories</p>
+<p>For &lsquo;necklaces and rings with Quality 67 or higher and support High/High options&rsquo;, replacement is as follows according to the options they have.</p>
+<ul><li>Accessories with &lsquo;valid options&rsquo;: replaced with a &lsquo;Mana Infusion Scroll&rsquo; according to the criteria below.<ul><li>The replacement Mana Infusion Scroll is given to match the existing accessory&rsquo;s slot. (Example: existing Necklace &rarr; Necklace Mana Infusion Scroll)</li>
+<li>The grade of the replacement Mana Infusion Scroll follows the combination of valid options in the transfer criteria.</li>
+<li>The replacement Mana Infusion Scroll follows the existing accessory&rsquo;s trade count.<ul><li>Example: Existing accessory tradable 2 times &rarr; Mana Infusion Scroll tradable 2 times</li>
+<li>Example 2) Existing untradable accessory &rarr; untradable Mana Infusion Scroll</li>
+</ul>
+</li>
+<li>For detailed criteria, please check [Tier 4 accessory Mana Infusion Scroll criteria and valid options for DPS/support] below.</li>
+</ul>
+</li>
+<li>Accessories without valid options, or accessories with Quality below 67: replaced with a set amount of &lsquo;Radiant Gem Fragments&rsquo; according to polish level.<ul><li>&lsquo;Radiant Gem Fragments&rsquo; are changed so they can be exchanged for Silver.</li>
+</ul>
+</li>
+</ul>
+<details class="fold"><summary>Tier 4 accessory Mana Infusion Scroll criteria and valid options for DPS/support</summary>
+<div class="toggle-body"><p>Mana Infusion Scroll criteria<br>&#8251; When determining a Mana Infusion Scroll&rsquo;s grade, option 3 is counted only for High/High/High and High/High/Mid combinations; other combinations are determined by options 1 and 2 only.</p>
+<div class="tbl"><table><tbody><tr><td class="hl">Category</td><td class="hl">Type</td><td class="hl">Option grades</td><td class="hl">Replacement item</td></tr>
+<tr><td rowspan="6" class="hl">Tier 4 Ancient</td><td rowspan="6">DPS Necklace/Earring/Ring<br>Support Necklace/Ring</td><td>High/High/High</td><td>Grade 1 Scroll</td></tr>
+<tr><td>High/High/Mid</td><td>Grade 2 Scroll</td></tr>
+<tr><td>High/High</td><td>Grade 3 Scroll</td></tr>
+<tr><td>High-Mid / Mid-High</td><td>Grade 4 Scroll</td></tr>
+<tr><td>High-Low / Low-High</td><td>Grade 5 Scroll</td></tr>
+<tr><td>Mid-Mid or lower</td><td>Grade 6 Scroll</td></tr>
+<tr><td rowspan="5" class="hl">Tier 4 Ancient</td><td rowspan="5" class="hd">Support Earring</td><td class="hd">High/High/High (Max HP)</td><td class="hd">Grade 2 Scroll</td></tr>
+<tr><td class="hd">High/High/High (Party Shield/Recovery Effect %)</td><td class="hd">Grade 3 Scroll</td></tr>
+<tr><td class="hd">High/High/Mid</td><td class="hd">Grade 4 Scroll</td></tr>
+<tr><td class="hd">High/High</td><td class="hd">Grade 5 Scroll</td></tr>
+<tr><td class="hd">High/Mid or lower</td><td class="hd">Grade 6 Scroll</td></tr>
+<tr><td class="hl">Tier 4 Relic</td><td>Support Necklace/Ring</td><td>High/High</td><td>Grade 5 Scroll</td></tr>
+</tbody></table>
+</div>
+<br><p>Options for DPS/support</p>
+<div class="tbl"><table><tbody><tr><td colspan="2" class="hl">Category</td><td class="hl">Options 1, 2</td><td class="hl">Option 3</td></tr>
+<tr><td rowspan="6" class="hl">DPS</td><td rowspan="2">Necklace</td><td>Additional Damage %</td><td rowspan="6">Attack Power +<br>Weapon Power +</td></tr>
+<tr><td>Damage to Enemies %</td></tr>
+<tr><td rowspan="2" class="hd">Earring</td><td class="hd">Attack Power %</td></tr>
+<tr><td class="hd">Weapon Power %</td></tr>
+<tr><td rowspan="2">Ring</td><td>Crit Rate %</td></tr>
+<tr><td>Crit Damage %</td></tr>
+<tr><td rowspan="5" class="hl">Support</td><td rowspan="2">Necklace</td><td>Brand Power %</td><td rowspan="2">Weapon Power +<br>Max HP +</td></tr>
+<tr><td>Serenade, Faith, Harmony gauge gain %</td></tr>
+<tr><td class="hd">Earring</td><td class="hd">Weapon Power %<br>Weapon Power +</td><td>Max HP +<br>Party Shield Effect %<br>Party Recovery Effect %</td></tr>
+<tr><td rowspan="2">Ring</td><td>Ally Attack Power Enhancement Effect %</td><td rowspan="2">Weapon Power +<br>Max HP +</td></tr>
+<tr><td>Ally Damage Enhancement Effect %</td></tr>
+</tbody></table>
+</div>
+</div>
+</details>
+<p>Tier 3 and lower accessories</p>
+<ul><li>Existing accessories of Tier 3 or lower are removed and are not replaced.</li>
+</ul>
+<h4>Replacement of Existing Bracelets</h4>
+<p>Tier 4 bracelets</p>
+<p>They are handled as follows depending on whether the bracelet has had effects granted.</p>
+<ul><li>Bracelets with effect granting in progress or complete are replaced according to the criteria below.<ul><li>Only the 1 highest-performing bracelet among those the character holds is replaced with a &lsquo;Seal Mana Infusion Scroll&rsquo;.<br>&#8251; Seal Mana Infusion Scrolls are divided into grades 1 to 21 in consideration of the existing bracelet&rsquo;s performance.</li>
+<li>The grade of the replacement Seal Mana Infusion Scroll follows the combination of options on the existing bracelet.</li>
+<li>The options on the existing bracelet are calculated separately by DPS and support criteria, and the criteria giving the higher grade are adopted.<ul><li>However, for DPS (all classes except Bard, Artist, Paladin and Valkyrie), bracelets made up only of support options are excluded from the transfer.</li>
+<li>Relic bracelets have their performance calculated by converting them to an Ancient bracelet basis.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Bracelets other than the highest-performing one, and bracelets with no effects granted, are replaced with bracelet dismantle results.<br>&#8251; If you hold a Tier 4 bracelet that has not yet had effects granted, we recommend granting its effects before the Lost Ark Part 2 regular maintenance.<br>&#8251; The dismantle results will be exchangeable for Silver through a separate shop.</li>
+</ul>
+<details class="fold"><summary>Tier 4 bracelet transfer criteria and effects for DPS/support</summary>
+<div class="toggle-body"><p>&#8251; The tables below sort bracelet effects into tiers by DPS/support performance; performance may differ even within the same tier.</p>
+<p>DPS effects</p>
+<div class="tbl"><table><tbody><tr><td class="hl">Tier</td><td class="hl">Bracelet effect</td></tr>
+<tr><td rowspan="5">Tier 1</td><td>Crit Rate increase &amp; damage increase on critical hits</td></tr>
+<tr><td>Crit Damage increase &amp; damage increase on critical hits</td></tr>
+<tr><td>Additional Damage increase &amp; damage increase to Demons and Archdemons</td></tr>
+<tr><td>Cooldown increase &amp; Damage to Enemies increase</td></tr>
+<tr><td>Damage to Enemies increase &amp; damage increase to Staggered enemies</td></tr>
+<tr><td class="hd">Tier 2+</td><td class="hd">Crit/Specialization/Swiftness</td></tr>
+<tr><td rowspan="7">Tier 2</td><td>Damage to Enemies increase for skills that are not directional attacks</td></tr>
+<tr><td>Damage to Enemies increase for Back Attack skills</td></tr>
+<tr><td>Damage to Enemies increase for Head Attack skills</td></tr>
+<tr><td>Additional Damage increase</td></tr>
+<tr><td>Damage to Enemies increase</td></tr>
+<tr><td>Crit Damage increase</td></tr>
+<tr><td>Crit Rate increase</td></tr>
+<tr><td rowspan="2" class="hd">Tier 3+</td><td class="hd">Weapon Power increase &amp; Weapon Power increase while own HP is 50% or higher</td></tr>
+<tr><td class="hd">Weapon Power increase &amp; Weapon Power increase for 120s every 30s</td></tr>
+<tr><td rowspan="2">Tier 3</td><td>Weapon Power increase</td></tr>
+<tr><td>On attack hit, Weapon Power for 10s every second<br>&amp; Attack and Move Speed increase</td></tr>
+<tr><td rowspan="4" class="hd">Tier 4</td><td class="hd">Target Defense reduction &amp; Ally Attack Power Enhancement Effect increase</td></tr>
+<tr><td class="hd">Target Crit Resistance reduction &amp; Ally Attack Power Enhancement Effect increase</td></tr>
+<tr><td class="hd">Target Crit Damage Resistance reduction &amp; Ally Attack Power Enhancement Effect increase</td></tr>
+<tr><td class="hd">Damage to Enemies increase for 5s for targets given a protection effect by a party effect<br>&amp; Ally Attack Power Enhancement Effect increase</td></tr>
+<tr><td>Tier 5</td><td>Strength/Dexterity/Intelligence</td></tr>
+</tbody></table>
+</div>
+<br><p>Support effects</p>
+<div class="tbl"><table><tbody><tr><td class="hl">Tier</td><td class="hl">Bracelet effect</td></tr>
+<tr><td rowspan="4">Tier 1</td><td>Target Defense reduction &amp; Ally Attack Power Enhancement Effect increase</td></tr>
+<tr><td>Target Crit Resistance reduction &amp; Ally Attack Power Enhancement Effect increase</td></tr>
+<tr><td>Target Crit Damage Resistance reduction &amp; Ally Attack Power Enhancement Effect increase</td></tr>
+<tr><td>Damage to Enemies increase for 5s for targets given a protection effect by a party effect<br>&amp; Ally Attack Power Enhancement Effect increase</td></tr>
+<tr><td rowspan="3" class="hd">Tier 2</td><td class="hd">Specialization/Swiftness</td></tr>
+<tr><td class="hd">Ally Damage Enhancement Effect increase</td></tr>
+<tr><td class="hd">Ally Attack Power Enhancement Effect increase</td></tr>
+<tr><td rowspan="2">Tier 3+</td><td>Weapon Power increase &amp; Weapon Power increase while own HP is 50% or higher</td></tr>
+<tr><td>Weapon Power increase &amp; Weapon Power increase for 120s every 30s</td></tr>
+<tr><td rowspan="2" class="hd">Tier 3</td><td class="hd">Weapon Power increase</td></tr>
+<tr><td class="hd">On attack hit, Weapon Power for 10s every second<br>&amp; Attack and Move Speed increase</td></tr>
+<tr><td>Tier 4</td><td>Strength/Dexterity/Intelligence</td></tr>
+</tbody></table>
+</div>
+</div>
+</details>
+<p>Tier 3 bracelets</p>
+<ul><li>Regardless of whether effects were granted, they are not replaced and are removed.</li>
+</ul>
+<h3 id="engravings">Changes from the Engraving System Rework</h3>
+<ul><li>The base grade of all engravings becomes Relic, and they change to be collected from Relic grade onward.<ul><li>An engraving&rsquo;s base effect is applied as the Relic stage 0 effect.</li>
+<li>Legendary Engraving Recipes change to no longer be used.</li>
+</ul>
+</li>
+<li>A system for upgrading engraving slots is added, and Ability Stones and the faceting system are removed.</li>
+<li>Existing Ability Stones are removed and handled as follows depending on what you hold and the faceting result.<ul><li>Among faceted Ability Stones, stones with an activation point total of 4 or more that meet the valid engraving condition are reflected in the Engraving Slot Upgrade level.<ul><li>If you hold several eligible stones, the Engraving Slot Upgrade level is set based on the stone with the highest activation point total.</li>
+<li>Even with the same activation point total, the Engraving Slot Upgrade level may be set differently depending on how the activation points are distributed between the engravings.<br>&#8251; The reduction effect on an Ability Stone does not affect the Engraving Slot Upgrade.</li>
+<li>The valid engraving condition is an Ability Stone with 2 engravings that are valid for DPS/support respectively.<ul><li>DPS: 2 DPS engravings</li>
+<li>Support: 2 support engravings or 2 DPS engravings<br>&#8251; Valid engravings are divided by DPS and support criteria, and the &lsquo;Awakening&rsquo; engraving counts as a valid engraving for both DPS and support.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<details class="fold"><summary>Valid engravings and Ability Stone transfer criteria</summary>
+<div class="toggle-body"><p>Valid engravings</p>
+<ul><li>DPS: Awakening, Master Brawler, Ambush Master, Master&rsquo;s Tenacity, Raid Captain, MP Efficiency Increase, Barricade, Broken Bone, All-Out Attack, Super Charge, Sight Focus, Adrenaline, Stabilized Status, Disrespect, Ether Predator, Keen Blunt Weapon, Grudge, Cursed Doll, Precise Dagger, Mass Increase, Propulsion, Hit Master</li>
+<li>Support: Awakening, Drops of Ether, Vital Point Hit, Magick Stream, Crushing Fist, Crisis Evasion, Expert, Spirit Absorption, Heavy Armor, Max MP Increase, Explosive Expert</li>
+</ul>
+<p>Engraving Slot Upgrade level by activation point total</p>
+<div class="tbl"><table><thead><tr><th class="hl">Activation point total</th><th class="hl">Engraving Slot Upgrade level applied</th></tr>
+</thead><tbody><tr><td>Total 4 (2+2)</td><td>1 engraving slot set to level 3</td></tr>
+<tr><td>Total 4 (3+1)</td><td>1 engraving slot set to level 5</td></tr>
+<tr><td>Total 5 (4+1, 3+2)</td><td>2 engraving slots set to level 7</td></tr>
+<tr><td>Total 6 (4+2)</td><td>3 engraving slots set to level 7</td></tr>
+<tr><td>Total 6 (3+3)</td><td>4 engraving slots set to level 7</td></tr>
+<tr><td>Total 7 (4+3)</td><td>5 engraving slots set to level 7</td></tr>
+<tr><td>Total 8 (4+4)</td><td>5 engraving slots set to level 7, plus an additional item</td></tr>
+</tbody></table>
+</div>
+</div>
+</details>
+<ul><li>Faceted stones not reflected in the Engraving Slot Upgrade are handled as follows.<ul><li>Valid engraving combination with an activation point total of 5 or more: accessory slot growth materials given according to the activation point total</li>
+<li>Valid engraving combination with an activation point total of 4: replaced with &lsquo;Transcendence Powder&rsquo;</li>
+</ul>
+</li>
+<li>The items below are replaced with &lsquo;Transcendence Powder&rsquo; according to grade.<ul><li>Unfaceted Ability Stones</li>
+<li>Ability Stones without a valid engraving combination<br>&#8251; Activation points are not considered; they are replaced with Transcendence Powder.</li>
+<li>Soaring Stone Engraving Designation Kit<br>&#8251; The Soaring Stone Engraving Designation Kit is replaced with Ancient-grade &lsquo;Holy Transcendence Powder&rsquo;.<br>&#8251; Transcendence Powder will later be exchangeable for Silver through a shop.</li>
+</ul>
+</li>
+</ul>
+<h3 id="gems">Changes from the Gem System Rework</h3>
+<ul><li>Tradable gems are reworked so they can be used at the Roster level.<ul><li>When a gem is registered in the Roster-wide shared space, several characters in the Roster can use that one gem at the same time.<br>&#8251; Character-bound gems can only be used by the character that holds them.</li>
+<li>Gems are kept in &lsquo;Material Storage&rsquo;.</li>
+<li>The requirements for equipping gems are removed.</li>
+</ul>
+</li>
+<li>The way gems are equipped is reworked.<ul><li>You can place the gems you hold on the skills you want to apply their effects.</li>
+<li>With the rework of how gems are equipped, gem presets are removed.<br>&#8251; The cost previously spent on expanding gem presets is refunded.</li>
+</ul>
+</li>
+<li>A higher Tier 4 gem, the &lsquo;Sacred Radiance Gem&rsquo;, is added.<ul><li>You can fuse 3 Level 10 Radiance Gems to obtain a Level 1 Sacred Radiance Gem.</li>
+<li>For Sacred Radiance Gems, fusing 2 gems of the same level gives 1 gem of the next level.<br>&#8251; Example) Fusing 2 Level 1 Sacred Radiance Gems gives 1 Level 2 Sacred Radiance Gem</li>
+</ul>
+</li>
+<li>With the gem system rework, all existing gems are removed, and gems eligible for replacement are replaced with the new &lsquo;Radiance Gem&rsquo;.<ul><li>All gems equipped on characters are unequipped, and replacement gems are sent to the shared storage.</li>
+<li>Whether a replacement gem is bound is determined by whether the existing gem was bound.</li>
+<li>Tier 3 Annihilation/Crimson Flame Gems (Level 3&ndash;10): replaced with a new Tier 4 &lsquo;Radiance Gem&rsquo; 2 levels lower than the existing level.<br>&#8251; Tier 3 Annihilation/Crimson Flame Gems (Level 1, 2) and gems below Tier 3 are not eligible for replacement and are removed.<br>&#8251; We recommend fusing the Tier 3 Annihilation/Crimson Flame Gems (Level 1, 2) you hold into gems of Level 3 or higher before the Lost Ark Part 2 regular maintenance.</li>
+<li>Tier 4 Doomfire/Blazing/Radiance Gems (Level 1&ndash;10): replaced with a new Tier 4 &lsquo;Radiance Gem&rsquo; of the same level as the existing level.</li>
+<li>For the gems below obtained through specific routes, a selection chest is given from which you choose one of its contents.</li>
+</ul>
+</li>
+</ul>
+<div class="tbl"><table><thead><tr><th class="hl">Type</th><th class="hl">Chest contents (choose 1)</th></tr>
+</thead><tbody><tr><td>Tier 4 Radiance Gem (Level 8) included in a paid growth product</td><td><ul><li>Untradable new Tier 4 Radiance Gem (Level 8)</li>
+<li>Tradable new Tier 4 Radiance Gem (Level 7)</li>
+</ul>
+</td></tr>
+<tr><td>Tier 4 Radiance Gem (Level 8) obtained from Paradise content</td><td><ul><li>Untradable new Tier 4 Radiance Gem (Level 8)</li>
+<li>Tradable new Tier 4 Radiance Gem (Level 7)</li>
+</ul>
+</td></tr>
+</tbody></table>
+</div>
+<h3 id="combat">Changes from the Combat System Rework</h3>
+<ul><li>The existing Domination/Endurance/Expertise stats are deleted, and a new combat stat, &lsquo;Prowess&rsquo;, is added.<ul><li>Prowess increases Damage to Enemies and Ally Attack Power Enhancement Effect according to its value.</li>
+<li>Part of the Domination/Endurance/Expertise values applied to existing characters is retroactively transferred to Prowess.<br>&#8251; Among pet effects, existing Domination/Endurance/Expertise stats are all changed to a Prowess stat of the same value.</li>
+</ul>
+</li>
+<li>Ark Passive is reworked into a structure for setting your combat style and combat stats.<ul><li>Ark Passive can be used from Combat Level 50.</li>
+<li>The existing Evolution and Leap passives are removed, and you can choose a combat style based on the Enlightenment passive.<ul><li>Nodes open by Combat Level according to the combat style you chose.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Combat stats can be set by distributing points among Crit/Specialization/Swiftness/Prowess in the Ark Passive window.<ul><li>All distributable points are given when Ark Passive is unlocked.</li>
+<li>When you choose or change a combat style, that style&rsquo;s default distribution is applied, and you can adjust it freely afterward.</li>
+</ul>
+</li>
+<li>In line with the removal of the Evolution and Leap passives, each class&rsquo;s Enlightenment passives and skill effects are adjusted.<ul><li>The Super Awakening skill enhancement effects of the existing Leap passive are reworked into Super Awakening skill Tripods.</li>
+</ul>
+</li>
+<li>With the Ark Passive rework, the Karma system is removed.<ul><li>Items used for Karma rank and level growth are removed and replaced with Part 2 Growth Material Exchange Tokens.</li>
+<li>For each of Evolution/Enlightenment/Leap Karma that reached Level 22 or higher, Part 2 Growth Material Exchange Tokens are given according to the level reached.</li>
+</ul>
+</li>
+<li>The Skill Rune system is removed.<ul><li>All Skill Runes you hold are removed.</li>
+<li>The effects of some Skill Runes are moved to other effects such as gems and PvE damage increases.</li>
+</ul>
+</li>
+</ul>
+<h3 id="trade-skills">Changes from the Trade Skill System Rework</h3>
+<ul><li>The Trade Skill system is reworked, and the 6 Trade Skill levels previously divided into Foraging, Logging, Mining, Hunting, Fishing and Excavating are merged into a single Trade Skill level.<ul><li>The existing 6 kinds of Trade Skill XP are all added together, and the unified Trade Skill level is applied based on the combined XP.</li>
+</ul>
+</li>
+<li>Existing Trade Skill materials are unified into &lsquo;Crystals of Life&rsquo;, so you obtain Crystals of Life whichever Trade Skill activity you do.</li>
+<li>Trade Skills are simplified, and some Trade Skills and Trade Skill minigames are removed.</li>
+<li>With the Trade Skill system rework, the Life Energy consumption of each Trade Skill is adjusted.</li>
+<li>With the Trade Skill system rework, some crafting recipes that use Trade Skill materials are removed.</li>
+<li>Trade Skill tiers are removed.<ul><li>With the removal of Trade Skill tiers, gatherables in regular areas change to Crystals of Life, and gatherables on the Roster Stronghold farm also change to Crystals of Life (bound).</li>
+<li>The research cost previously spent on Trade Skill tier research is refunded.</li>
+</ul>
+</li>
+<li>With the Trade Skill system rework, Trade Skill tools are removed.<ul><li>Among the Trade Skill tools you hold, Legendary and Relic tools are replaced with Gold according to the replacement criteria, limited to 1 per eligible item.<br>&#8251; If you hold several Trade Skill tools that fall under the same payout criteria, the additional ones are not replaced.</li>
+</ul>
+</li>
+<li>With the Trade Skill system rework, materials and Trade Skill-related items that can no longer be used are removed or replaced with new items depending on type.<ul><li>Existing Trade Skill materials are removed, and some materials are replaced with Crystals of Life according to per-material Market conversion criteria.</li>
+<li>The items below are replaced with Crystals of Life with the same bound status as the existing item.<ul><li>Trade Skill Tool Crafting Kits, Trade Skill Tool Restoration Kits, Tool Crafting Parts, Trade Skill tools below Legendary</li>
+</ul>
+</li>
+<li>Existing Trade Skill charms and charm chests are replaced with new cards of the same grade.<br>&#8251; The effects of existing Trade Skill charms are moved to the collection effects of Trade Skill card sets.</li>
+<li>Among other Trade Skill-related items that lose their use, those eligible for compensation are replaced with Crystals of Life according to set criteria.</li>
+<li>Existing Trade Skill-related items not separately designated for replacement are removed.</li>
+</ul>
+</li>
+</ul>
+<h3 id="sailing">Changes from the Sailing Rework</h3>
+<ul><li>The setup where a crew member of the same name existed separately for each grade is merged into a single crew member.<ul><li>Same-named crew members you hold are replaced with a unified crew member whose grade is determined by the number of grades you held.<br>&#8251; Example) If you hold all of the Epic/Legendary/Relic crew member &lsquo;Cals&rsquo;, they are replaced with a unified Relic &lsquo;Cals&rsquo;; if you hold 2 of them, they are replaced with a unified Legendary &lsquo;Cals&rsquo;.</li>
+<li>Sailing Crew Application Form items change to be used as crew upgrade materials.<ul><li>Crew members that have not reached the maximum grade can later be grown to the maximum grade by obtaining Crew Application Forms for the same crew member.</li>
+<li>Existing Crew Application Form items are replaced with the changed Crew Application Forms.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Hazardous Waters are reworked.<ul><li>Among the existing Hazardous Waters, Kelp Beds are removed.</li>
+<li>The locations of Hazardous Waters in the Sea of Gienah/Sea of Procyon are adjusted.</li>
+</ul>
+</li>
+<li>Epic ship parts materials change to Rare grade, and the item name changes to &lsquo;Ship Parts&rsquo;.<ul><li>Existing ship parts below Epic grade are no longer used and are replaced with &lsquo;Ship Parts&rsquo; at a set ratio.</li>
+</ul>
+</li>
+<li>Pirate Coins are removed.<ul><li>Pirate Coins you hold are replaced with &lsquo;Ocean Coins&rsquo; at a set ratio.</li>
+</ul>
+</li>
+<li>The Gold reward provided by Sailing Co-op Quests is removed.</li>
+</ul>
+<h3 id="content">Changes from the Content Rework</h3>
+<h4>End Content Lineup and Reward Changes</h4>
+<ul><li>The end content lineup and rewards are partly changed.<ul><li>In Part 2, the content below is treated as end content.<ul><li>Shadow Raid: Witch of Agony, Serca / Precept-Keeper of Death, Belgardin</li>
+<li>Abyss Dungeon: Cathedral of the Horizon</li>
+</ul>
+</li>
+<li>The amount of &lsquo;Cores&rsquo; obtained from clearing end content and from extra rewards is increased.</li>
+<li>The entry level of some end content is adjusted, and clear Gold is adjusted along with it.</li>
+</ul>
+</li>
+<li>The criteria for earning end content Gold rewards change.<ul><li>If all 6 Gold-earning designated characters have earned this week&rsquo;s Gold rewards, characters from the 7th onward can earn Character-bound Gold when clearing end content.</li>
+<li>With the adjustment to the number of times end content Gold rewards can be earned, the free extra rewards function is removed.</li>
+</ul>
+</li>
+<li>With the change to the end content lineup, Gold can no longer be earned from the content below, which was previously classified as end content.<ul><li>Abyss Dungeons (Kayangel, Ivory Tower)</li>
+<li>Legion Raids (Valtan &ndash; Thaemine)</li>
+<li>Kazeros Raids (Overture &ndash; Denouement)</li>
+<li>Epic Raids</li>
+</ul>
+</li>
+<li>Unique materials obtainable from clearing existing end content are removed and replaced with Part 2 Growth Material Exchange Tokens.</li>
+<li>Among existing end content, the rewards of Legion Raids (Valtan &ndash; Thaemine) and Kazeros Raids (Overture &ndash; Denouement) change.<ul><li>First Clear Reward: items no longer used in Part 2 are removed from the First Clear Reward contents.</li>
+<li>Card rewards: the card rewards given at each content&rsquo;s final gate are kept.</li>
+<li>Honor rewards: changed to be given as the final gate clear reward of the difficulty that gives the honor reward.</li>
+<li>Honing materials and Cores: no longer given.</li>
+<li>Loot Auction: no longer provided.</li>
+<li>Extra rewards: no longer provided.</li>
+</ul>
+</li>
+<li>Among existing end content, the rewards of the Abyss Dungeons below are all removed.<ul><li>Eligible content: Ancient Elveria &ndash; Oreha&rsquo;s Well<br>&#8251; In the Abyss Dungeons &lsquo;Kayangel&rsquo; and &lsquo;Ivory Tower of Chaos&rsquo;, you can obtain region card packs and honor rewards.</li>
+</ul>
+</li>
+<li>Among PC Bang premium benefits, the additional extra-rewards chance benefit is removed.</li>
+</ul>
+<h4>Rework of Some Content</h4>
+<ul><li>The daily content lineup is reworked.<ul><li>The content below changes so it can only be played through a new system.<ul><li>Chaos Rift, Guardian Raid, Haal&rsquo;s Hourglass</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The content below is removed.<ul><li>Chaos Dungeon, Kurzan Front, Chaos Gate, Ebony Cube, Origin Island &lsquo;Battle Arena&rsquo;<br>&#8251; Cube entry tickets (1st&ndash;5th Forbidden, 1st&ndash;4th Unlock) are removed and replaced with Part 2 Growth Material Exchange Tokens.</li>
+</ul>
+</li>
+<li>Aura of Resonance and Rest Bonus accumulated on characters, and related items, are removed without replacement.<ul><li>Eligible items and currencies: Aura of Resonance Recovery Elixir, Rest Bonus Recovery Elixir, Sand of Trials<br>&#8251; The new system added in Part 2 will provide a Rest Bonus system in a new form.<br>&#8251; We recommend using all the Recovery Elixirs you hold before the Lost Ark Part 2 regular maintenance.<br>&#8251; We also recommend playing Haal&rsquo;s Hourglass so that all your Sand of Trials can be used up before the Lost Ark Part 2 regular maintenance.</li>
+</ul>
+</li>
+</ul>
+<h3 id="stronghold-pets">Changes from the Roster Stronghold and Pet System Rework</h3>
+<ul><li>The Lab and the research system are removed.<ul><li>Effects that were obtained through research change to be obtained through &lsquo;Roster Stronghold Level&rsquo;.</li>
+<li>Roster Stronghold functions that were unlocked through research also change to work by &lsquo;Roster Stronghold Level&rsquo;.</li>
+</ul>
+</li>
+<li>The Dispatch Station&rsquo;s special dispatch missions and the Growth Support Center&rsquo;s Training Camp are removed.</li>
+<li>The feast and barbecue menus under North Kurzan are removed from the Chef&rsquo;s Kitchen.</li>
+<li>Among pet specialties, effects related to the Roster Stronghold farm are changed in line with the Trade Skill and farm rework.</li>
+<li>The Pet Proficiency system is removed.<ul><li>If you hold the &lsquo;Pet Growth Token&rsquo; needed for a pet upgrade, you can now upgrade the pet immediately from pet storage.</li>
+<li>With the removal of the Pet Proficiency system, the Roster Stronghold&rsquo;s Pet Ranch and Cookie Workshop are removed along with it.</li>
+<li>The Pet Proficiency Potion given when returning a pet is replaced with a Pet Growth Token.</li>
+</ul>
+</li>
+<li>Items related to the Pet Ranch and Cookie Workshop are no longer used and are removed, and are replaced with other items depending on type.<ul><li>Items that could previously be exchanged for Jelly Cookies will be purchasable with Adventurer&rsquo;s Seals through another shop.</li>
+</ul>
+</li>
+</ul>
+<h3 id="other">Other Changes from the Part 2 System Reworks</h3>
+<ul><li>The card system is reworked, and equipped set effects are reworked into &lsquo;Signature Effects&rsquo;.<ul><li>A Signature Effect is a passive effect that is always active while you hold the cards.</li>
+<li>If the same or similar Signature Effects apply across several sets, the 1 strongest Signature Effect is activated.</li>
+</ul>
+</li>
+<li>Directly equipping cards is removed, and card effects are applied automatically according to the cards you have collected.<ul><li>Card presets are no longer used, and the currency spent on unlocking card presets is refunded.</li>
+</ul>
+</li>
+<li>Trust will be used when trading items by mail and personal trade.<ul><li>The Trust set on an item may change with Market prices.</li>
+</ul>
+</li>
+<li>If you send Gold or items while short on Trust, your Trust accumulates as a negative value by the amount you are short.<ul><li>If Trust falls below a certain threshold, Pheons are charged as an additional fee on top of the existing Gold fee.</li>
+<li>While Pheons are being charged as an additional fee, you must restore Trust to 0 or above for the additional fee to stop.<br>&#8251; New accounts are charged the additional Pheon fee from the start if they are short on Trust; the additional fee is lifted by earning Trust above a certain level or registering STOVE mobile authentication (OTP).</li>
+</ul>
+</li>
+<li>The Auction House will no longer be used.<ul><li>Gem items change to be tradable on the Market.</li>
+<li>At the time of the Part 2 update, the listings of all items registered on the Market and Auction House will be cancelled.<br>&#8251; Depending on type, listed items are returned by mail as replacement items or removed without replacement.</li>
+</ul>
+</li>
+<li>The guild activity reward structure is reworked, and Sylmael Bloodstones and Guild Bloodstones are removed.<ul><li>Sylmael Bloodstones and Guild Bloodstones are no longer earned; the way guild activity points are earned is kept.</li>
+<li>Sylmael Bloodstones held per character are removed and replaced with Silver at a set ratio.</li>
+<li>Guild Bloodstones held by guilds are removed and are not replaced.<br>&#8251; We recommend distributing them to guild members before the Lost Ark Part 2 regular maintenance.</li>
+</ul>
+</li>
+<li>The achievement system is reworked, and achievements that can no longer be completed after the Part 2 update change to Legacy achievements.<ul><li>From Part 2, even if an achievement changes to a Legacy achievement, it is not excluded from the rank XP count.<br>&#8251; Rank XP that was excluded from the count by being moved to the existing Legacy category will all be restored.</li>
+</ul>
+</li>
+<li>Special gear (Compass/Charm/Crest) is removed, and special gear you hold is replaced with honor items depending on type.<ul><li>Hero&rsquo;s Crest: an insignia and a title are given according to the grade of the gear you hold.</li>
+<li>Charm, Compass: new cards are given according to the grade of the gear you hold.<br>&#8251; The effects of existing Charms and Compasses change to collection effects of new card sets.</li>
+</ul>
+</li>
+<li>Secret Maps are removed, and Secret Maps you hold are replaced as follows according to map type and obtainable items.<ul><li>Regular Secret Maps: &lsquo;Part 2 Growth Material Exchange Tokens&rsquo; are given based on the value of the items obtainable from the map.</li>
+<li>Trade Skill Secret Maps: &lsquo;Crystals of Life&rsquo; are given based on the value of the Trade Skill items obtainable according to the map&rsquo;s tier.</li>
+</ul>
+</li>
+<li>The Style Support provided with Jumping growth ends.<ul><li>We recommend applying Style Support before the Lost Ark Part 2 regular maintenance.</li>
+</ul>
+</li>
+</ul>
+
+<h3 id="closing">Closing</h3>
+
+<blockquote>Further details will be given in the update notes notice in line with the Lost Ark Part 2 update schedule,<br>
+and we will keep working to prepare a better service.<br>
+Thank you, as always.</blockquote>
+
+  </section>
+
+  <section id="package">
+    <h2>8th Anniversary Start of Change Package</h2>
+
+    <p class="meta">Source: <a href="https://lostark.game.onstove.com/Event/Package/261106" rel="noopener" target="_blank">Event/Package/261106</a> &middot; Sale period: Nov 6 (Fri), 2026 &ndash; Dec 16 (Wed), before regular maintenance</p>
+  <figure class="notice-figure">
+    <div class="fig-view">
+      <input type="radio" name="fig-1" id="fig-1-tr" class="fig-toggle-input is-translation" checked />
+      <input type="radio" name="fig-1" id="fig-1-og" class="fig-toggle-input is-original" />
+      <div class="fig-panel fig-translation">
+        <div class="fig-overlay">
+          <img src="images/package/hero.webp" alt="8th Anniversary Start of Change Package key art" />
+          <span class="ov plate" style="left:66.8%;top:19.6%;width:36%;font-size:1.7cqw;color:#ffe9b0">8th Anniversary Contest Winner</span>
+          <span class="ov plate" style="left:66.8%;top:29.2%;width:46%;font-size:5.0cqw;color:#ffb86b;font-weight:800">Start of Change</span>
+          <span class="ov plate" style="left:66.8%;top:40.6%;width:56%;font-size:1.25cqw">Sale period: <b>Nov 6 (Fri), 2026 &ndash; Dec 16 (Wed)</b>, before regular maintenance</span>
+        </div>
+      </div>
+      <div class="fig-panel fig-original">
+        <img src="images/package/hero.webp" alt="8th Anniversary Start of Change Package key art" />
+      </div>
+      <div class="fig-tabs">
+        <label class="tab-translation" for="fig-1-tr">Translation</label>
+        <label class="tab-original" for="fig-1-og">Original</label>
+      </div>
+    </div>
+    <figcaption class="poster-note">Key art, cropped to the centre of the page banner. The word &ldquo;Package&rdquo; is English in the original.</figcaption>
+  </figure>
+
+    <ul>
+      <li>8th Anniversary Contest Winner</li>
+      <li><strong>Start of Change Package</strong></li>
+      <li>Sale period: Nov 6 (Fri), 2026 &ndash; Dec 16 (Wed), before regular maintenance</li>
+      <li>Page buttons: Event Precautions &middot; Event &amp; UGC Rules</li>
+    </ul>
+
+    <h3 id="package-contents">[Recommended] Start of Change Package</h3>
+  <figure class="notice-figure">
+    <div class="fig-view">
+      <input type="radio" name="fig-2" id="fig-2-tr" class="fig-toggle-input is-translation" checked />
+      <input type="radio" name="fig-2" id="fig-2-og" class="fig-toggle-input is-original" />
+      <div class="fig-panel fig-translation">
+        <div class="fig-overlay">
+          <img src="images/package/package.webp" alt="Start of Change Package contents" />
+          <span class="ov plate" style="left:50%;top:9%;width:86%;font-size:2.9cqw;color:#ffb86b;font-weight:800">[Recommended] Start of Change Package</span>
+          <span class="ov plate" style="left:50%;top:28%;width:30%;font-size:1.4cqw">* 1 purchase per account</span>
+          <span class="ov plate" style="left:45.6%;top:60.5%;width:15%;font-size:1.3cqw">8th Anniversary Avatar Chest x 1</span>
+          <span class="ov plate" style="left:61.8%;top:60.5%;width:16%;font-size:1.3cqw">8th Anniversary Weapon Selection Chest x 1</span>
+          <span class="ov plate" style="left:76%;top:60.5%;width:12%;font-size:1.3cqw">Crystal x 1,000</span>
+          <span class="ov plate" style="left:46.3%;top:70%;width:8%;font-size:1.1cqw">Details</span>
+          <span class="ov plate" style="left:61.6%;top:70%;width:8%;font-size:1.1cqw">Details</span>
+        </div>
+      </div>
+      <div class="fig-panel fig-original">
+        <img src="images/package/package.webp" alt="Start of Change Package contents" />
+      </div>
+      <div class="fig-tabs">
+        <label class="tab-translation" for="fig-2-tr">Translation</label>
+        <label class="tab-original" for="fig-2-og">Original</label>
+      </div>
+    </div>
+    <figcaption class="poster-note">Package tile, cropped to the centre. The price shown is 49,000 Royal Crystals.</figcaption>
+  </figure>
+
+    <ul>
+      <li>49,000 Royal Crystals &mdash; 1 purchase per account</li>
+      <li>Crystal 1,000</li>
+      <li>8th Anniversary Avatar Chest</li>
+      <li>8th Anniversary Weapon Selection Chest</li>
+    </ul>
+
+    <h3 id="package-avatar">Start of Change Avatar</h3>
+    <p class="poster-note">Single item &middot; 27,800 Royal Crystals</p>
+    <div class="pair">
+      <figure class="poster"><img src="images/package/avatar1.webp" alt="8th Anniversary Change avatar, male and female" /><p class="poster-note">8th Anniversary Change</p></figure>
+      <figure class="poster"><img src="images/package/avatar2.webp" alt="8th Anniversary Start avatar, male and female" /><p class="poster-note">8th Anniversary Start</p></figure>
+    </div>
+    <ul>
+      <li>When you use the 8th Anniversary Avatar Chest, you choose 1 design and obtain the Head, Top, Bottom, Face 1 and Face 2 avatars, or the Head, Top-and-Bottom, Face 1 and Face 2 avatars, that fit the class that opened it. The Head, Top and Bottom avatars can be dyed, and the dyeable area may differ by design.</li>
+      <li>* Face ornaments may not be visible when combined with some parts.</li>
+      <li>* The example images may differ somewhat from the in-game screen depending on the dye/pattern/gloss applied to the avatar, the lighting at the time of capture, and so on.</li>
+      <li>* The example images may be made with some parts not worn; the detailed contents can be checked in the in-game Lost Ark Shop (F4).</li>
+    </ul>
+
+    <h3 id="package-weapon">Start of Change Weapon Avatar</h3>
+    <p class="poster-note">Single item &middot; 7,000 Royal Crystals</p>
+    <ul>
+      <li>When you use the 8th Anniversary Weapon Selection Chest, you can choose and obtain 1 weapon avatar that fits the class of the character that opened it. The weapon avatar can be dyed, and the dyeable area may differ by design.</li>
+      <li>* Weapon avatars may look different depending on the character&rsquo;s state (in combat, idle).</li>
+      <li>Each class has two weapon avatars, named <strong>8th Anniversary Change [weapon]</strong> and <strong>8th Anniversary Start [weapon]</strong> (for example, 8th Anniversary Change Halberd / 8th Anniversary Start Halberd). The page lists them by class tab:</li>
+    </ul>
+    <div class="tbl"><table>
+      <tr><td class="hl">Tab</td><td class="hl">Class</td><td class="hl">Weapon</td></tr>
+<tr><td rowspan="4">Warrior (Male)</td><td>Destroyer</td><td>War Hammer</td></tr>
+<tr><td>Gunlancer</td><td>Lance</td></tr>
+<tr><td>Berserker</td><td>Greatsword</td></tr>
+<tr><td>Paladin</td><td>One-handed Sword</td></tr>
+<tr><td rowspan="2">Warrior (Female)</td><td>Slayer</td><td>Greatsword</td></tr>
+<tr><td>Valkyrie</td><td>One-handed Sword</td></tr>
+<tr><td rowspan="2">Martial Artist (Male)</td><td>Striker</td><td>Gauntlet</td></tr>
+<tr><td>Breaker</td><td>Heavy Gauntlet</td></tr>
+<tr><td rowspan="4">Martial Artist (Female)</td><td>Wardancer</td><td>Gauntlet</td></tr>
+<tr><td>Scrapper</td><td>Heavy Gauntlet</td></tr>
+<tr><td>Soulfist</td><td>Focus</td></tr>
+<tr><td>Glaivier</td><td>Spear</td></tr>
+<tr><td rowspan="4">Gunner (Male)</td><td>Deadeye</td><td>Gun</td></tr>
+<tr><td>Artillerist</td><td>Launcher</td></tr>
+<tr><td>Sharpshooter</td><td>Bow</td></tr>
+<tr><td>Machinist</td><td>Submachine Gun</td></tr>
+<tr><td rowspan="1">Gunner (Female)</td><td>Gunslinger</td><td>Gun</td></tr>
+<tr><td rowspan="4">Mage</td><td>Bard</td><td>Liane Harp</td></tr>
+<tr><td>Summoner</td><td>Staff</td></tr>
+<tr><td>Arcanist</td><td>Magic Deck</td></tr>
+<tr><td>Sorceress</td><td>Long Staff</td></tr>
+<tr><td rowspan="4">Assassin</td><td>Deathblade</td><td>Sword</td></tr>
+<tr><td>Shadowhunter</td><td>Demonic Weapon</td></tr>
+<tr><td>Reaper</td><td>Dagger</td></tr>
+<tr><td>Souleater</td><td>Death Scythe</td></tr>
+<tr><td rowspan="1">Specialist (Male)</td><td>Chronomancer</td><td>Clock</td></tr>
+<tr><td rowspan="3">Specialist (Female)</td><td>Artist</td><td>Brush</td></tr>
+<tr><td>Aeromancer</td><td>Umbrella</td></tr>
+<tr><td>Wildsoul</td><td>Scroll</td></tr>
+<tr><td rowspan="1">Guardian Knight</td><td>Guardian Knight</td><td>Halberd</td></tr>
+    </table></div>
+
+    <h3 id="package-mount">Champion&rsquo;s Banquet Seat Mount</h3>
+    <p class="poster-note">Single item &middot; 19,800 Royal Crystals</p>
+  <figure class="notice-figure">
+    <div class="fig-view">
+      <input type="radio" name="fig-3" id="fig-3-tr" class="fig-toggle-input is-translation" checked />
+      <input type="radio" name="fig-3" id="fig-3-og" class="fig-toggle-input is-original" />
+      <div class="fig-panel fig-translation">
+        <div class="fig-overlay">
+          <img src="images/package/vehicle1.webp" alt="Champion&rsquo;s Banquet Seat mounts: Black, Green, Beige" />
+          <span class="ov plate" style="left:15.4%;top:94%;width:18%;font-size:1.9cqw;color:#f0c9a0">Champion&rsquo;s Banquet Seat<br>Black</span>
+          <span class="ov plate" style="left:50%;top:94%;width:18%;font-size:1.9cqw;color:#f0c9a0">Champion&rsquo;s Banquet Seat<br>Green</span>
+          <span class="ov plate" style="left:84.6%;top:94%;width:18%;font-size:1.9cqw;color:#f0c9a0">Champion&rsquo;s Banquet Seat<br>Beige</span>
+        </div>
+      </div>
+      <div class="fig-panel fig-original">
+        <img src="images/package/vehicle1.webp" alt="Champion&rsquo;s Banquet Seat mounts: Black, Green, Beige" />
+      </div>
+      <div class="fig-tabs">
+        <label class="tab-translation" for="fig-3-tr">Translation</label>
+        <label class="tab-original" for="fig-3-og">Original</label>
+      </div>
+    </div>
+    <figcaption class="poster-note">Mount slide 1 of 2.</figcaption>
+  </figure>
+  <figure class="notice-figure">
+    <div class="fig-view">
+      <input type="radio" name="fig-4" id="fig-4-tr" class="fig-toggle-input is-translation" checked />
+      <input type="radio" name="fig-4" id="fig-4-og" class="fig-toggle-input is-original" />
+      <div class="fig-panel fig-translation">
+        <div class="fig-overlay">
+          <img src="images/package/vehicle2.webp" alt="Champion&rsquo;s Banquet Seat mounts: Red, Pink, White" />
+          <span class="ov plate" style="left:15.4%;top:94%;width:18%;font-size:1.9cqw;color:#f0c9a0">Champion&rsquo;s Banquet Seat<br>Red</span>
+          <span class="ov plate" style="left:50%;top:94%;width:18%;font-size:1.9cqw;color:#f0c9a0">Champion&rsquo;s Banquet Seat<br>Pink</span>
+          <span class="ov plate" style="left:84.6%;top:94%;width:18%;font-size:1.9cqw;color:#f0c9a0">Champion&rsquo;s Banquet Seat<br>White</span>
+        </div>
+      </div>
+      <div class="fig-panel fig-original">
+        <img src="images/package/vehicle2.webp" alt="Champion&rsquo;s Banquet Seat mounts: Red, Pink, White" />
+      </div>
+      <div class="fig-tabs">
+        <label class="tab-translation" for="fig-4-tr">Translation</label>
+        <label class="tab-original" for="fig-4-og">Original</label>
+      </div>
+    </div>
+    <figcaption class="poster-note">Mount slide 2 of 2.</figcaption>
+  </figure>
+
+    <ul>
+      <li>When you use the 8th Anniversary Mount Selection Chest, you can choose and obtain 1 mount.</li>
+      <li>This mount can also be purchased as a single item.</li>
+    </ul>
+
+    <h3 id="package-pet">Minime Pet</h3>
+    <p class="poster-note">Single item &middot; 15,000 Royal Crystals</p>
+  <figure class="notice-figure">
+    <div class="fig-view">
+      <input type="radio" name="fig-5" id="fig-5-tr" class="fig-toggle-input is-translation" checked />
+      <input type="radio" name="fig-5" id="fig-5-og" class="fig-toggle-input is-original" />
+      <div class="fig-panel fig-translation">
+        <div class="fig-overlay">
+          <img src="images/package/pet1.webp" alt="Minime pets: the five New Hire pets" />
+          <span class="ov plate" style="left:8.6%;top:97.5%;width:16%;font-size:1.7cqw">New Hire Bami</span>
+          <span class="ov plate" style="left:28.5%;top:80%;width:16%;font-size:1.7cqw">New Hire Bomi</span>
+          <span class="ov plate" style="left:49%;top:70%;width:16%;font-size:1.7cqw">New Hire Seori</span>
+          <span class="ov plate" style="left:68.3%;top:80%;width:16%;font-size:1.7cqw">New Hire Byeori</span>
+          <span class="ov plate" style="left:91.5%;top:97.5%;width:16%;font-size:1.7cqw">New Hire Yuri</span>
+        </div>
+      </div>
+      <div class="fig-panel fig-original">
+        <img src="images/package/pet1.webp" alt="Minime pets: the five New Hire pets" />
+      </div>
+      <div class="fig-tabs">
+        <label class="tab-translation" for="fig-5-tr">Translation</label>
+        <label class="tab-original" for="fig-5-og">Original</label>
+      </div>
+    </div>
+    <figcaption class="poster-note">Pet slide 1 of 2.</figcaption>
+  </figure>
+  <figure class="notice-figure">
+    <div class="fig-view">
+      <input type="radio" name="fig-6" id="fig-6-tr" class="fig-toggle-input is-translation" checked />
+      <input type="radio" name="fig-6" id="fig-6-og" class="fig-toggle-input is-original" />
+      <div class="fig-panel fig-translation">
+        <div class="fig-overlay">
+          <img src="images/package/pet2.webp" alt="Minime pets: the five camera Mokoko pets" />
+          <span class="ov plate" style="left:9%;top:97.5%;width:17%;font-size:1.6cqw">Cute Chalkak-kong</span>
+          <span class="ov plate" style="left:30%;top:80%;width:17%;font-size:1.6cqw">Lively Smile-kong</span>
+          <span class="ov plate" style="left:50%;top:70%;width:17%;font-size:1.6cqw">Cool V-kong</span>
+          <span class="ov plate" style="left:70%;top:80%;width:17%;font-size:1.6cqw">Stern Wiing-kong</span>
+          <span class="ov plate" style="left:91%;top:97.5%;width:17%;font-size:1.6cqw">Bubbly Banjjak-kong</span>
+        </div>
+      </div>
+      <div class="fig-panel fig-original">
+        <img src="images/package/pet2.webp" alt="Minime pets: the five camera Mokoko pets" />
+      </div>
+      <div class="fig-tabs">
+        <label class="tab-translation" for="fig-6-tr">Translation</label>
+        <label class="tab-original" for="fig-6-og">Original</label>
+      </div>
+    </div>
+    <figcaption class="poster-note">Pet slide 2 of 2.</figcaption>
+  </figure>
+
+    <ul>
+      <li>When you use the 8th Anniversary Pet Selection Chest, you can choose and obtain 1 pet.</li>
+      <li>This pet can also be purchased as a single item.</li>
+    </ul>
+
+  </section>
+
+  <section class="translation-notes" id="translation-notes">
+    <h2>Translation Notes</h2>
+    <p class="poster-note">Term choices, with the KR original for cross-reference. &ldquo;Working&rdquo; means there is no Western client name yet.</p>
+    <ul>
+      <li><strong>2부 &rarr; Part 2</strong> &mdash; Smilegate&rsquo;s name for the upcoming overhaul (&ldquo;로스트아크 2부&rdquo;).</li>
+      <li><strong>교체 지급 &rarr; replaced with / given as replacement</strong> &mdash; the old item is removed and the new one is paid out in its place. 이관 &rarr; transfer.</li>
+      <li><strong>2부 성장 재료 교환용 토큰 &rarr; Part 2 Growth Material Exchange Token</strong> &mdash; working translation (new item).</li>
+      <li><strong>완갑 &rarr; Vambrace &middot; 허리띠 &rarr; Belt &middot; 성물 &rarr; Holy Relic &middot; 인장 &rarr; Seal</strong> &mdash; working translations for slots with no Western name yet. 보구 (the Holy Relic + Seal group) &rarr; Treasures, also working.</li>
+      <li><strong>재련 &rarr; Honing &middot; 상급 재련 &rarr; Advanced Honing &middot; 특수 재련 &rarr; Special Honing</strong> &mdash; official. 재련 단계 &rarr; honing stage; table cells such as &ldquo;25단계&rdquo; are written &ldquo;Stage 25&rdquo;.</li>
+      <li><strong>연마 &rarr; polish</strong> &mdash; the same word covers today&rsquo;s accessory polishing and the new gear polish level (연마 단계). Working for the new system.</li>
+      <li><strong>등급 (gear) &rarr; rarity</strong> &mdash; 일반/고급/희귀/영웅/전설/유물/고대 &rarr; Common/Uncommon/Rare/Epic/Legendary/Relic/Ancient. For scrolls, 등급 &rarr; grade (1&ndash;6, 1&ndash;21).</li>
+      <li><strong>초과 / 이하 &rarr; Above / Up to</strong> &mdash; the item-level table ranges are &ldquo;above X, up to and including Y&rdquo;.</li>
+      <li><strong>명예의 파편 &rarr; Honor Shards &middot; 운명의 파편 &rarr; Destiny Shards &middot; 돌파석 &rarr; Leapstone &middot; 융화 재료 &rarr; Fusion Material &middot; 야금술/재봉술 &rarr; Metallurgy/Tailoring &middot; 숨결 &rarr; Breath &middot; 장인의 기운 &rarr; Artisan&rsquo;s Energy &middot; 실링 &rarr; Silver</strong> &mdash; official names. 순환 돌파석 &rarr; Circulation Leapstone and 전이 돌파석 &rarr; Transition Leapstone are working.</li>
+      <li><strong>에스더 무기 &rarr; Sidereal weapon &middot; 에스더의 기운 &rarr; Sidereal Energy</strong> &mdash; official. 엘라 부여 단계 &rarr; Ella infusion stage, 에스더 변환 &rarr; Sidereal Conversion, 로맨틱 재료 키트 &rarr; Romantic Material Kit are literal/working.</li>
+      <li><strong>마력 주입 주문서 &rarr; Mana Infusion Scroll &middot; 인장 마력 주입 주문서 &rarr; Seal Mana Infusion Scroll</strong> &mdash; working (new items).</li>
+      <li><strong>유효 옵션 &rarr; valid options &middot; 상/중/하 &rarr; High/Mid/Low</strong> &mdash; option roll grades on Tier 4 accessories.</li>
+      <li><strong>딜러 / 서포터 &rarr; DPS / Support</strong></li>
+      <li><strong>영롱한 보석 파편 &rarr; Radiant Gem Fragment &middot; 초월의 가루 &rarr; Transcendence Powder &middot; 거룩한 초월의 가루 &rarr; Holy Transcendence Powder</strong> &mdash; working translations.</li>
+      <li><strong>낙인력 &rarr; Brand Power &middot; 아군 공격력 강화 효과 &rarr; Ally Attack Power Enhancement Effect &middot; 아군 피해량 강화 효과 &rarr; Ally Damage Enhancement Effect &middot; 무력화 &rarr; Stagger</strong></li>
+      <li><strong>세공 &rarr; faceting &middot; 활성화 포인트 &rarr; activation points &middot; 각인 슬롯 업그레이드 &rarr; Engraving Slot Upgrade</strong> &mdash; the last is working (new system). Engraving names use the Western client names (e.g. 속전속결 &rarr; All-Out Attack, 구슬동자 &rarr; Drops of Ether, 전문의 &rarr; Expert).</li>
+      <li><strong>비상의 돌 각인 지정 키트 &rarr; Soaring Stone Engraving Designation Kit</strong> &mdash; working.</li>
+      <li><strong>멸화/홍염 &rarr; Annihilation/Crimson Flame &middot; 겁화/작열 &rarr; Doomfire/Blazing</strong> &mdash; Tier 3 / Tier 4 gem names. 광휘의 보석 &rarr; Radiance Gem and 성휘의 보석 &rarr; Sacred Radiance Gem are working.</li>
+      <li><strong>원정대 &rarr; Roster &middot; 재료 저장소 &rarr; Material Storage &middot; 통합 보관함 &rarr; shared storage</strong></li>
+      <li><strong>제압/인내/숙련 &rarr; Domination/Endurance/Expertise &middot; 치명/특화/신속 &rarr; Crit/Specialization/Swiftness</strong> &mdash; official. 기량 &rarr; Prowess is working (new stat).</li>
+      <li><strong>전투 스타일 &rarr; combat style &middot; 진화/깨달음/도약 &rarr; Evolution/Enlightenment/Leap &middot; 카르마 &rarr; Karma &middot; 초각성 스킬 &rarr; Super Awakening skill &middot; 스킬 룬 &rarr; Skill Rune</strong></li>
+      <li><strong>생활 &rarr; Trade Skill</strong> &mdash; 식물채집/벌목/채광/수렵/낚시/고고학 &rarr; Foraging/Logging/Mining/Hunting/Fishing/Excavating; 생명의 기운 &rarr; Life Energy. 생명의 결정 &rarr; Crystal of Life is working.</li>
+      <li><strong>선원 &rarr; crew member &middot; 선원지원서 &rarr; Crew Application Form &middot; 위험 해역 &rarr; Hazardous Waters &middot; 수초 해역 &rarr; Kelp Beds &middot; 해적 주화 &rarr; Pirate Coin</strong> &mdash; 대양의 주화 &rarr; Ocean Coin and 칼스 &rarr; Cals are working spellings.</li>
+      <li><strong>엔드 콘텐츠 &rarr; end content &middot; 보상 더보기 &rarr; extra rewards &middot; 전리품 경매 &rarr; Loot Auction &middot; 캐릭터 귀속 골드 &rarr; Character-bound Gold</strong></li>
+      <li><strong>고통의 마녀, 세르카 &rarr; Witch of Agony, Serca &middot; 죽음의 계율자, 벨가르딘 &rarr; Precept-Keeper of Death, Belgardin</strong> &mdash; the Belgardin epithet is working. 지평의 성당 &rarr; Cathedral of the Horizon is working.</li>
+      <li><strong>발탄 ~ 카멘 &rarr; Valtan &ndash; Thaemine &middot; 서막 ~ 종막 &rarr; Overture &ndash; Denouement</strong> &mdash; Western raid names. 카양겔 &rarr; Kayangel, 혼돈의 상아탑 &rarr; Ivory Tower of Chaos, 고대 유적 엘베리아 ~ 오레하의 우물 &rarr; Ancient Elveria &ndash; Oreha&rsquo;s Well.</li>
+      <li><strong>명예 보상 / 명예 요소 &rarr; honor rewards / honor items</strong> &mdash; literal; prestige-type rewards such as titles.</li>
+      <li><strong>혼돈의 균열 &rarr; Chaos Rift &middot; 할의 모래시계 &rarr; Haal&rsquo;s Hourglass &middot; 에브니 큐브 &rarr; Ebony Cube &middot; 태초의 섬 &rarr; Origin Island &middot; 공명의 기운 &rarr; Aura of Resonance &middot; 휴식 보너스 &rarr; Rest Bonus</strong> &mdash; 시련의 모래 &rarr; Sand of Trials is working. Cube tickets: 금제 &rarr; Forbidden, 해금 &rarr; Unlock.</li>
+      <li><strong>원정대 영지 &rarr; Roster Stronghold &middot; 연구소 &rarr; Lab &middot; 파견 의뢰소 &rarr; Dispatch Station &middot; 펫 쉼터 &rarr; Pet Ranch</strong> &mdash; 쿠키 공방 &rarr; Cookie Workshop, 젤리 쿠키 &rarr; Jelly Cookies, 펫 숙련도 &rarr; Pet Proficiency, 펫 성장의 증표 &rarr; Pet Growth Token and 훈련소 &rarr; Training Camp are literal and not checked against the Western client. 모험의 인장 &rarr; Adventurer&rsquo;s Seal.</li>
+      <li><strong>대표 효과 &rarr; Signature Effect</strong> &mdash; working (new card effect type).</li>
+      <li><strong>신뢰도 &rarr; Trust &middot; 페온 &rarr; Pheon &middot; 거래소 &rarr; Market &middot; 경매장 &rarr; Auction House</strong></li>
+      <li><strong>실마엘 혈석 &rarr; Sylmael Bloodstone &middot; 유산 업적 &rarr; Legacy achievement &middot; 용사의 문장 &rarr; Hero&rsquo;s Crest &middot; 비밀지도 &rarr; Secret Map</strong> &mdash; 휘장 &rarr; insignia.</li>
+      <li><strong>점핑 &rarr; Jumping &middot; 스타일 지원 &rarr; Style Support</strong> &mdash; the KR instant level-up (the Western equivalent is a Powerpass); literal.</li>
+      <li><strong>PC방 &rarr; PC Bang</strong></li>
+      <li><strong>변화의 시작 패키지 &rarr; Start of Change Package</strong> &mdash; package page. 8주년 변화 / 8주년 시작 &rarr; 8th Anniversary Change / 8th Anniversary Start (the two designs). 로열 크리스탈 &rarr; Royal Crystal.</li>
+      <li><strong>챔피언의 만찬석 &rarr; Champion&rsquo;s Banquet Seat &middot; 미니미 펫 &rarr; Minime Pet &middot; 신입사원 &rarr; New Hire</strong> &mdash; pet names are romanized: 밤이/봄이/설이/별이/율이 &rarr; Bami/Bomi/Seori/Byeori/Yuri; 찰칵콩/스마일콩/브이콩/위잉콩/반짝콩 &rarr; Chalkak-kong (camera click) / Smile-kong / V-kong / Wiing-kong (whirr) / Banjjak-kong (sparkle).</li>
+      <li><strong>Weapon section text</strong> &mdash; the banner image reads &ldquo;8주년 무기 선택 상자&rdquo; (8th Anniversary Weapon Selection Chest), which is what is translated above; the page&rsquo;s underlying text still says &ldquo;신화의 사막 무기 선택 상자&rdquo; (Desert of Myth Weapon Selection Chest), apparently left over from an earlier page. 환수사 &rarr; Wildsoul, 차원술사 &rarr; Chronomancer, 가디언나이트 &rarr; Guardian Knight; weapon type names are literal.</li>
+    </ul>
+  </section>
+
+  <footer class="site-footer">
+    <p>Translated from Korean. Originals:
+      <a href="https://lostark.game.onstove.com/News/Notice/Views/13608" rel="noopener" target="_blank">Notice #13608</a> &middot;
+      <a href="https://lostark.game.onstove.com/Event/Package/261106" rel="noopener" target="_blank">Event/Package/261106</a>.
+    </p>
+    <p>Made by <a href="https://www.twitch.tv/thejunglewalrus" rel="noopener" target="_blank">junglewalrus</a>.</p>
+    <nav class="footer-links">
+      <a href="https://github.com/thejunglewalrus/kr-patch-november-25-2026" rel="noopener" target="_blank">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        GitHub
+      </a>
+      <span class="dot">·</span>
+      <a href="https://www.twitch.tv/thejunglewalrus" rel="noopener" target="_blank">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z"/></svg>
+        Twitch
+      </a>
+      <span class="dot">·</span>
+      <a href="https://discord.gg/area-chat" rel="noopener" target="_blank">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+        Discord
+      </a>
+      <span class="dot">·</span>
+      <a href="https://www.youtube.com/@junglewalrus" rel="noopener" target="_blank">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.378.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.12 2.136c1.873.505 9.378.505 9.378.505s7.505 0 9.378-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        YouTube
+      </a>
+      <span class="dot">·</span>
+      <a href="https://thejunglewalrus.github.io/" rel="noopener">All tools &amp; translations</a>
+    </nav>
+  </footer>
+</main>
+</body>
+</html>
